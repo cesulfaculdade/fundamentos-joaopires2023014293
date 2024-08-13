@@ -1,4 +1,5 @@
 import { StyleSheet, TouchableOpacity, View, Text, TextInput } from "react-native";
+import { Product } from "../components/Product";
 
 export function Home() {
   const handleProductAdd = () => {
@@ -23,6 +24,12 @@ export function Home() {
       </View>
 
       <Text style={styles.listTitle}>Compras Pendentes</Text>
+
+      <Product />
+
+    <View>
+
+    </View>
 
       <View style={styles.list}>
         <Text style={styles.listEmptyText}>
